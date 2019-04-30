@@ -18,7 +18,6 @@ class Player(Actor):
         # update position and state based on keyboard input
         if keyboard.left:
             self.x -= 1
-            self.y = 100
             self.state = 'walkleft'
         elif keyboard.right:
             self.x += 1
